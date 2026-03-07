@@ -19,13 +19,13 @@ Scope: peptides that target, treat, or deliver drugs to lung cancer.
   - *Life Sciences* | [ScienceDirect](https://www.sciencedirect.com/science/article/abs/pii/S0024320525000864)
   - Focus: Comprehensive review of peptides targeting EGFR, TP53, BRAF, MET, ROS1, ALK in lung cancer; anti-inflammatory and apoptosis-inducing peptides
 
+- [x] **Karati et al. (2025)** — Peptide-Based Drugs: Emerging Treatment Strategies of Lung Cancer by Overcoming Chemoresistance
+  - *International Journal of Peptide Research and Therapeutics* | [Springer](https://link.springer.com/article/10.1007/s10989-025-10767-2)
+  - Focus: Peptides overcoming drug resistance in lung cancer, chemoresistance mechanisms
+
 ---
 
 ## Lung Cancer Peptide Reviews
-
-- [ ] **Peptide-Based Drugs: Emerging Treatment Strategies of Lung Cancer by Overcoming Chemoresistance (2025)**
-  - *International Journal of Peptide Research and Therapeutics* | [Springer](https://link.springer.com/article/10.1007/s10989-025-10767-2)
-  - Focus: Peptides overcoming drug resistance in lung cancer, chemoresistance mechanisms
 
 - [ ] **Peptide-Based Agents for Cancer Treatment: Current Applications and Future Directions (2023)**
   - *PMC* | [PMC10454368](https://pmc.ncbi.nlm.nih.gov/articles/PMC10454368/)
