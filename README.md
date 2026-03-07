@@ -1,0 +1,14 @@
+# Cancer Peptides Literature Survey
+
+A curated collection of literature summaries on anticancer peptides — covering targeting peptides, antimicrobial peptides with anticancer activity, peptide-drug conjugates, and related therapeutic strategies.
+
+## Reading List
+
+See [TODO.md](TODO.md) for the full list of papers to review (19 papers across 7 categories, lung cancer focus).
+
+## Completed Papers
+
+| # | Paper | Year | Focus Area |
+|---|-------|------|------------|
+| 1 | [Chi et al. — Lung Cancer-Targeting Peptides](papers/chi-2017-lung-cancer-targeting-peptides.md) | 2017 | Lung cancer targeting, phage display, theranostics |
+| 2 | [Karankar et al. — Peptide-Driven Strategies Against Lung Cancer](papers/karankar-2025-peptide-driven-strategies-lung-cancer.md) | 2025 | Review: EGFR, TP53, BRAF, MET, ROS1, ALK targeting peptides |
