@@ -67,6 +67,10 @@ Scope: peptides that target, treat, or deliver drugs to lung cancer.
   - *J Cancer Res Clin Oncol* | [PMC11797435](https://pmc.ncbi.nlm.nih.gov/articles/PMC11797435/)
   - Focus: PDC landscape, 60+ approved peptides, 12 FDA/EMA-approved cancer drugs
 
+- [x] **Kim et al. (2024)** — Functionalized Peptides in Nanomedicine
+  - *Biomedicines* | [PMC10813321](https://pmc.ncbi.nlm.nih.gov/articles/PMC10813321/)
+  - Focus: Three peptide-NP strategies, CPP33-ZIF-90 for A549 lung cancer
+
 ---
 
 ## Lung Cancer-Specific Targeting Peptides
@@ -117,9 +121,9 @@ Scope: peptides that target, treat, or deliver drugs to lung cancer.
 
 ## Peptide-Functionalized Nanoparticles for Lung Cancer
 
-- [ ] **Role of Functionalized Peptides in Nanomedicine for Effective Cancer Therapy (2024)**
-  - *PMC* | [PMC10813321](https://pmc.ncbi.nlm.nih.gov/articles/PMC10813321/)
-  - Focus: Peptide-functionalized nanoparticles, lung cancer drug delivery
+- [x] **Kim et al. (2024)** — Role of Functionalized Peptides in Nanomedicine for Effective Cancer Therapy
+  - *Biomedicines* | [PMC10813321](https://pmc.ncbi.nlm.nih.gov/articles/PMC10813321/)
+  - Focus: Peptide-NP targeting, self-assembly, stimuli-responsive, CPP33-ZIF-90 for lung cancer
 
 - [ ] **Engineered Nanocarriers for Targeted Lung Cancer Therapy (2025)**
   - *PMC* | [PMC12531643](https://pmc.ncbi.nlm.nih.gov/articles/PMC12531643/)
