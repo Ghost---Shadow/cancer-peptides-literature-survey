@@ -51,6 +51,10 @@ Scope: peptides that target, treat, or deliver drugs to lung cancer.
   - *Pharmaceutics* | [PMC9143638](https://pmc.ncbi.nlm.nih.gov/articles/PMC9143638/)
   - Focus: K4F6K4, 81.6% tumor reduction in vivo, 13x selectivity
 
+- [x] **Bauso et al. (2024)** — Biological Activity of Natural and Synthetic Anticancer Peptides
+  - *Int J Mol Sci* | [PMC11242495](https://pmc.ncbi.nlm.nih.gov/articles/PMC11242495/)
+  - Focus: Comprehensive review, MANS, FCHO1, TMEM39AS41, MP06, DTX-P7 for lung cancer
+
 ---
 
 ## Lung Cancer-Specific Targeting Peptides
@@ -81,9 +85,9 @@ Scope: peptides that target, treat, or deliver drugs to lung cancer.
   - *Pharmaceutics* | [PMC9143638](https://pmc.ncbi.nlm.nih.gov/articles/PMC9143638/)
   - Focus: K4F6K4 peptide, membrane disruption in lung adenocarcinoma, in vivo efficacy
 
-- [ ] **Biological Activity of Natural and Synthetic Peptides as Anticancer Agents (2024)**
-  - *PMC* | [PMC11242495](https://pmc.ncbi.nlm.nih.gov/articles/PMC11242495/)
-  - Focus: Natural and synthetic anticancer peptides, mechanisms of action including lung cancer models
+- [x] **Bauso et al. (2024)** — Biological Activity of Natural and Synthetic Peptides as Anticancer Agents
+  - *Int J Mol Sci* | [PMC11242495](https://pmc.ncbi.nlm.nih.gov/articles/PMC11242495/)
+  - Focus: ACPs across 10 cancer types, 7 lung cancer peptides with sequences
 
 ## Peptide-Drug Conjugates for Lung Cancer
 
