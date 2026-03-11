@@ -23,12 +23,16 @@ Scope: peptides that target, treat, or deliver drugs to lung cancer.
   - *International Journal of Peptide Research and Therapeutics* | [Springer](https://link.springer.com/article/10.1007/s10989-025-10767-2)
   - Focus: Peptides overcoming drug resistance in lung cancer, chemoresistance mechanisms
 
+- [x] **Nhàn et al. (2023)** — Peptide-Based Agents for Cancer Treatment: Current Applications and Future Directions
+  - *International Journal of Molecular Sciences* | [PMC10454368](https://pmc.ncbi.nlm.nih.gov/articles/PMC10454368/)
+  - Focus: Broad overview of peptide agents in cancer therapy, clinical landscape
+
 ---
 
 ## Lung Cancer Peptide Reviews
 
-- [ ] **Peptide-Based Agents for Cancer Treatment: Current Applications and Future Directions (2023)**
-  - *PMC* | [PMC10454368](https://pmc.ncbi.nlm.nih.gov/articles/PMC10454368/)
+- [x] **Nhàn et al. (2023)** — Peptide-Based Agents for Cancer Treatment: Current Applications and Future Directions
+  - *International Journal of Molecular Sciences* | [PMC10454368](https://pmc.ncbi.nlm.nih.gov/articles/PMC10454368/)
   - Focus: Broad overview of peptide agents in cancer therapy, clinical landscape
 
 ## Lung Cancer-Specific Targeting Peptides
