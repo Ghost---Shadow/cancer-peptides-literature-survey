@@ -39,6 +39,10 @@ Scope: peptides that target, treat, or deliver drugs to lung cancer.
   - *Pharmaceutics* | [PMC9318536](https://pmc.ncbi.nlm.nih.gov/articles/PMC9318536/)
   - Focus: Cyclic peptides P6/P9, CPT conjugates, NSCLC + glioblastoma
 
+- [x] **Zhou et al. (2022)** — Highly Potent, Selective, Biostable, and Cell-Permeable Cyclic D-Peptide for Dual-Targeting Therapy of Lung Cancer
+  - *JACS* | [ACS](https://pubs.acs.org/doi/10.1021/jacs.1c12075)
+  - Focus: NKTP-3 dual-targeting NRP1 + KRASG12D, in vivo antitumor activity
+
 ---
 
 ## Lung Cancer-Specific Targeting Peptides
@@ -55,8 +59,8 @@ Scope: peptides that target, treat, or deliver drugs to lung cancer.
   - *Pharmaceutics* | [PMC9318536](https://pmc.ncbi.nlm.nih.gov/articles/PMC9318536/)
   - Focus: Cyclic peptides targeting EGFR/EGFRvIII, drug delivery to EGFR-mutant lung cancers
 
-- [ ] **Highly Potent, Selective, Biostable, and Cell-Permeable Cyclic D-Peptide for Dual-Targeting Therapy of Lung Cancer (2022)**
-  - *Journal of the American Chemical Society* | [ACS](https://pubs.acs.org/doi/10.1021/jacs.1c12075)
+- [x] **Zhou et al. (2022)** — Highly Potent, Selective, Biostable, and Cell-Permeable Cyclic D-Peptide for Dual-Targeting Therapy of Lung Cancer
+  - *JACS* | [ACS](https://pubs.acs.org/doi/10.1021/jacs.1c12075)
   - Focus: NKTP-3 cyclic D-peptide targeting NRP1 and KRASG12D in lung cancer models
 
 ## Anticancer Peptides with Lung Cancer Activity
