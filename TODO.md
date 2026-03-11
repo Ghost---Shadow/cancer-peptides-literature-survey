@@ -55,6 +55,10 @@ Scope: peptides that target, treat, or deliver drugs to lung cancer.
   - *Int J Mol Sci* | [PMC11242495](https://pmc.ncbi.nlm.nih.gov/articles/PMC11242495/)
   - Focus: Comprehensive review, MANS, FCHO1, TMEM39AS41, MP06, DTX-P7 for lung cancer
 
+- [x] **Mudd et al. (2022)** — BT8009 Bicycle Toxin Conjugate for Nectin-4+ Cancers
+  - *J Med Chem* | [PMC9661471](https://pmc.ncbi.nlm.nih.gov/articles/PMC9661471/)
+  - Focus: First low-MW Nectin-4 targeting BTC, MMAE, Phase I/II clinical
+
 ---
 
 ## Lung Cancer-Specific Targeting Peptides
@@ -91,9 +95,9 @@ Scope: peptides that target, treat, or deliver drugs to lung cancer.
 
 ## Peptide-Drug Conjugates for Lung Cancer
 
-- [ ] **Discovery of BT8009: A Nectin-4 Targeting Bicycle Toxin Conjugate for the Treatment of Cancer (2022)**
-  - *Journal of Medicinal Chemistry* | [PMC9661471](https://pmc.ncbi.nlm.nih.gov/articles/PMC9661471/)
-  - Focus: Bicycle peptide-MMAE conjugate (zelenectide pevedotin), Nectin-4 targeting, Phase I/II in NSCLC
+- [x] **Mudd et al. (2022)** — Discovery of BT8009: A Nectin-4 Targeting Bicycle Toxin Conjugate
+  - *J Med Chem* | [PMC9661471](https://pmc.ncbi.nlm.nih.gov/articles/PMC9661471/)
+  - Focus: Bicycle peptide-MMAE conjugate (zelenectide pevedotin), Nectin-4 targeting, Phase I/II
 
 - [ ] **An Orally Available Grafted Peptide Targeting EGFR Dimers Reduces NSCLC Tumors in Mouse Models (2025)**
   - *ACS Pharmacology & Translational Science* | [ACS](https://pubs.acs.org/doi/10.1021/acsptsci.5c00336)
