@@ -83,6 +83,10 @@ Scope: peptides that target, treat, or deliver drugs to lung cancer.
   - *iMetaOmics* | [Wiley](https://onlinelibrary.wiley.com/doi/full/10.1002/imo2.70063)
   - Focus: 68 AI/ML ACP models, screening framework, multi-omics + nanodelivery integration
 
+- [x] **Chowdhury et al. (2025)** — Molecular Chimera in Cancer Drug Discovery: Designing Grafted Stable Peptides Targeting Cancer
+  - *Int J Pept Res Ther* | [Springer](https://link.springer.com/article/10.1007/s10989-025-10690-6)
+  - Focus: Cyclotide/SFTI scaffolds, grafted cancer-targeting peptides, EGFR/HER2, oral bioavailability
+
 ---
 
 ## Lung Cancer-Specific Targeting Peptides
@@ -151,6 +155,6 @@ Scope: peptides that target, treat, or deliver drugs to lung cancer.
   - *iMetaOmics* | [Wiley](https://onlinelibrary.wiley.com/doi/full/10.1002/imo2.70063)
   - Focus: 68 AI/ML ACP models, screening framework, multi-omics + nanodelivery integration
 
-- [ ] **Molecular Chimera in Cancer Drug Discovery: Designing Grafted Stable Peptides Targeting Cancer (2025)**
-  - *International Journal of Peptide Research and Therapeutics* | [Springer](https://link.springer.com/article/10.1007/s10989-025-10690-6)
-  - Focus: Grafted peptide chimeras, stability engineering, cancer targeting
+- [x] **Chowdhury et al. (2025)** — Molecular Chimera in Cancer Drug Discovery: Designing Grafted Stable Peptides Targeting Cancer
+  - *Int J Pept Res Ther* | [Springer](https://link.springer.com/article/10.1007/s10989-025-10690-6)
+  - Focus: Cyclotide/SFTI scaffolds, grafted cancer-targeting peptides, EGFR/HER2, oral bioavailability
