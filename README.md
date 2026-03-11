@@ -2,6 +2,10 @@
 
 A curated collection of literature summaries on anticancer peptides — covering targeting peptides, antimicrobial peptides with anticancer activity, peptide-drug conjugates, and related therapeutic strategies.
 
+## Longitudinal Analysis
+
+See [Longitudinal Analysis](papers/longitudinal-analysis.md) for a cross-cutting synthesis across all 19 papers — covering method evolution, target landscape, efficacy comparisons, clinical translation pipeline, and key gaps.
+
 ## Reading List
 
 See [TODO.md](TODO.md) for the full list of papers to review (19 papers across 7 categories, lung cancer focus).
