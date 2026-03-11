@@ -18,3 +18,4 @@ See [TODO.md](TODO.md) for the full list of papers to review (19 papers across 7
 | 6 | [Bakhshinejad et al. — Novel Tumor-Binding Peptide for Lung Cancer](papers/bakhshinejad-2018-novel-tumor-binding-peptide-lung-cancer.md) | 2018 | LCP1 (AWRTHTP) peptide, A549 targeting, phage display |
 | 7 | [Furman et al. — Cyclic Peptides for EGFR/EGFRvIII Drug Delivery](papers/furman-2022-cyclic-peptides-egfr-egfrviii.md) | 2022 | Cyclic peptides P6/P9, EGFR targeting, CPT conjugates, NSCLC |
 | 8 | [Zhou et al. — NKTP-3 Cyclic D-Peptide for Lung Cancer](papers/zhou-2022-nktp3-cyclic-dpeptide-lung-cancer.md) | 2022 | Dual-targeting NRP1 + KRASG12D, cyclic D-peptide, in vivo |
+| 9 | [Shin et al. — AC-P19M Anticancer Peptide for Lung Cancer](papers/shin-2022-acp19m-anticancer-peptide-lung-cancer.md) | 2022 | De novo designed ACP, apoptosis + anti-angiogenesis, A549/H460 |

@@ -43,6 +43,10 @@ Scope: peptides that target, treat, or deliver drugs to lung cancer.
   - *JACS* | [ACS](https://pubs.acs.org/doi/10.1021/jacs.1c12075)
   - Focus: NKTP-3 dual-targeting NRP1 + KRASG12D, in vivo antitumor activity
 
+- [x] **Shin et al. (2022)** — De Novo Design of AC-P19M Anticancer Peptide for Lung Cancer
+  - *Int J Mol Sci* | [PMC9779372](https://pmc.ncbi.nlm.nih.gov/articles/PMC9779372/)
+  - Focus: Multi-target ACP: apoptosis, membrane disruption, anti-angiogenesis, anti-EMT
+
 ---
 
 ## Lung Cancer-Specific Targeting Peptides
@@ -65,8 +69,8 @@ Scope: peptides that target, treat, or deliver drugs to lung cancer.
 
 ## Anticancer Peptides with Lung Cancer Activity
 
-- [ ] **De Novo Design of AC-P19M, a Novel Anticancer Peptide with Apoptotic Effects on Lung Cancer Cells and Anti-Angiogenic Activity (2023)**
-  - *PMC* | [PMC9779372](https://pmc.ncbi.nlm.nih.gov/articles/PMC9779372/)
+- [x] **Shin et al. (2022)** — De Novo Design of AC-P19M, a Novel Anticancer Peptide with Apoptotic Effects on Lung Cancer Cells and Anti-Angiogenic Activity
+  - *Int J Mol Sci* | [PMC9779372](https://pmc.ncbi.nlm.nih.gov/articles/PMC9779372/)
   - Focus: De novo designed peptide, membrane disruption and apoptosis in A549/H460 cells, anti-angiogenesis
 
 - [ ] **Therapeutic Effects of Synthetic Triblock Amphiphilic Short Antimicrobial Peptides on Human Lung Adenocarcinoma (2022)**
