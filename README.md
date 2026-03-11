@@ -27,3 +27,4 @@ See [TODO.md](TODO.md) for the full list of papers to review (19 papers across 7
 | 15 | [Kim et al. — Functionalized Peptides in Nanomedicine](papers/kim-2024-functionalized-peptides-nanomedicine-cancer.md) | 2024 | Peptide-NP strategies: targeting, self-assembly, stimuli-responsive |
 | 16 | [Lee et al. — Engineered Nanocarriers for Lung Cancer](papers/lee-2025-engineered-nanocarriers-lung-cancer.md) | 2025 | Nanocarrier platforms, inhalable delivery, T-DXd clinical progress |
 | 17 | [Allred et al. — Peptide-Guided Saporin Delivery to NSCLC](papers/allred-2023-peptide-guided-saporin-delivery-nsclc.md) | 2023 | MGS4_V8 peptide, saporin toxin delivery, <40 nM affinity, in vivo efficacy |
+| 18 | [Wu et al. — AI-Driven Anticancer Peptide Discovery](papers/wu-2025-ai-driven-anticancer-peptide-discovery.md) | 2025 | Review: 68 AI/ML ACP models, screening framework, multi-omics integration |

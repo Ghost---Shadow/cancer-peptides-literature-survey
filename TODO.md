@@ -79,6 +79,10 @@ Scope: peptides that target, treat, or deliver drugs to lung cancer.
   - *Communications Biology* | [PMC9845330](https://pmc.ncbi.nlm.nih.gov/articles/PMC9845330/)
   - Focus: MGS4_V8 peptide, saporin delivery, <40 nM NSCLC affinity, in vivo tumor homing
 
+- [x] **Wu et al. (2025)** — Artificial Intelligence-Driven Anticancer Peptide Discovery
+  - *iMetaOmics* | [Wiley](https://onlinelibrary.wiley.com/doi/full/10.1002/imo2.70063)
+  - Focus: 68 AI/ML ACP models, screening framework, multi-omics + nanodelivery integration
+
 ---
 
 ## Lung Cancer-Specific Targeting Peptides
@@ -143,9 +147,9 @@ Scope: peptides that target, treat, or deliver drugs to lung cancer.
 
 ## Computational Peptide Design for Lung Cancer
 
-- [ ] **AI-Driven Anticancer Peptide Discovery (2025)**
+- [x] **Wu et al. (2025)** — Artificial Intelligence-Driven Anticancer Peptide Discovery
   - *iMetaOmics* | [Wiley](https://onlinelibrary.wiley.com/doi/full/10.1002/imo2.70063)
-  - Focus: AI/ML methods for designing anticancer peptides, lung cancer applications
+  - Focus: 68 AI/ML ACP models, screening framework, multi-omics + nanodelivery integration
 
 - [ ] **Molecular Chimera in Cancer Drug Discovery: Designing Grafted Stable Peptides Targeting Cancer (2025)**
   - *International Journal of Peptide Research and Therapeutics* | [Springer](https://link.springer.com/article/10.1007/s10989-025-10690-6)
