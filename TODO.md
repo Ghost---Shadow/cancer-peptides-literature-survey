@@ -27,17 +27,15 @@ Scope: peptides that target, treat, or deliver drugs to lung cancer.
   - *International Journal of Molecular Sciences* | [PMC10454368](https://pmc.ncbi.nlm.nih.gov/articles/PMC10454368/)
   - Focus: Broad overview of peptide agents in cancer therapy, clinical landscape
 
+- [x] **McGuire et al. (2014)** — Identification and Characterization of a Suite of Tumor Targeting Peptides for Non-Small Cell Lung Cancer
+  - *Scientific Reports* | [Nature](https://www.nature.com/articles/srep04480)
+  - Focus: 11 novel NSCLC-targeting peptides, phage display, sub-nM affinity
+
 ---
-
-## Lung Cancer Peptide Reviews
-
-- [x] **Nhàn et al. (2023)** — Peptide-Based Agents for Cancer Treatment: Current Applications and Future Directions
-  - *International Journal of Molecular Sciences* | [PMC10454368](https://pmc.ncbi.nlm.nih.gov/articles/PMC10454368/)
-  - Focus: Broad overview of peptide agents in cancer therapy, clinical landscape
 
 ## Lung Cancer-Specific Targeting Peptides
 
-- [ ] **Identification and Characterization of a Suite of Tumor Targeting Peptides for Non-Small Cell Lung Cancer**
+- [x] **McGuire et al. (2014)** — Identification and Characterization of a Suite of Tumor Targeting Peptides for Non-Small Cell Lung Cancer
   - *Scientific Reports* | [Nature](https://www.nature.com/articles/srep04480)
   - Focus: NSCLC-specific targeting peptides, in vivo validation
 
