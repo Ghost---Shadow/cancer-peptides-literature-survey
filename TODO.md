@@ -63,6 +63,10 @@ Scope: peptides that target, treat, or deliver drugs to lung cancer.
   - *ACS Pharmacol Transl Sci* | [ACS](https://pubs.acs.org/doi/10.1021/acsptsci.5c00336)
   - Focus: SFTI-G5, first oral peptide targeting EGFR/HER2 dimerization, sub-µM IC50
 
+- [x] **Alamdari-palangi et al. (2023)** — Peptide-Agent Conjugates for Targeting Tumor Cells
+  - *J Cancer Res Clin Oncol* | [PMC11797435](https://pmc.ncbi.nlm.nih.gov/articles/PMC11797435/)
+  - Focus: PDC landscape, 60+ approved peptides, 12 FDA/EMA-approved cancer drugs
+
 ---
 
 ## Lung Cancer-Specific Targeting Peptides
@@ -107,9 +111,9 @@ Scope: peptides that target, treat, or deliver drugs to lung cancer.
   - *ACS Pharmacol Transl Sci* | [ACS](https://pubs.acs.org/doi/10.1021/acsptsci.5c00336)
   - Focus: SFTI-G5 grafted peptide, oral bioavailability, EGFR/HER2 dimerization inhibition
 
-- [ ] **Recent Advances and Applications of Peptide-Agent Conjugates for Targeting Tumor Cells (2025)**
-  - *PMC* | [PMC11797435](https://pmc.ncbi.nlm.nih.gov/articles/PMC11797435/)
-  - Focus: Peptide-agent conjugate platforms, tumor-targeted delivery strategies
+- [x] **Alamdari-palangi et al. (2023)** — Recent Advances and Applications of Peptide-Agent Conjugates for Targeting Tumor Cells
+  - *J Cancer Res Clin Oncol* | [PMC11797435](https://pmc.ncbi.nlm.nih.gov/articles/PMC11797435/)
+  - Focus: PDC design, 28 clinical trials, DTX-P7/ANG1005 for lung cancer
 
 ## Peptide-Functionalized Nanoparticles for Lung Cancer
 
