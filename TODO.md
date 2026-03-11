@@ -35,6 +35,10 @@ Scope: peptides that target, treat, or deliver drugs to lung cancer.
   - *IJPR* | [PMC5937109](https://pmc.ncbi.nlm.nih.gov/articles/PMC5937109/)
   - Focus: LCP1 (AWRTHTP) peptide, A549 targeting, phage display
 
+- [x] **Furman et al. (2022)** — Novel Cyclic Peptides for Targeting EGFR and EGFRvIII Mutation for Drug Delivery
+  - *Pharmaceutics* | [PMC9318536](https://pmc.ncbi.nlm.nih.gov/articles/PMC9318536/)
+  - Focus: Cyclic peptides P6/P9, CPT conjugates, NSCLC + glioblastoma
+
 ---
 
 ## Lung Cancer-Specific Targeting Peptides
@@ -47,8 +51,8 @@ Scope: peptides that target, treat, or deliver drugs to lung cancer.
   - *IJPR* | [PMC5937109](https://pmc.ncbi.nlm.nih.gov/articles/PMC5937109/)
   - Focus: Phage display biopanning for lung cancer-binding peptides
 
-- [ ] **Novel Cyclic Peptides for Targeting EGFR and EGFRvIII Mutation for Drug Delivery (2022)**
-  - *PMC* | [PMC9318536](https://pmc.ncbi.nlm.nih.gov/articles/PMC9318536/)
+- [x] **Furman et al. (2022)** — Novel Cyclic Peptides for Targeting EGFR and EGFRvIII Mutation for Drug Delivery
+  - *Pharmaceutics* | [PMC9318536](https://pmc.ncbi.nlm.nih.gov/articles/PMC9318536/)
   - Focus: Cyclic peptides targeting EGFR/EGFRvIII, drug delivery to EGFR-mutant lung cancers
 
 - [ ] **Highly Potent, Selective, Biostable, and Cell-Permeable Cyclic D-Peptide for Dual-Targeting Therapy of Lung Cancer (2022)**
