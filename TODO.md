@@ -47,6 +47,10 @@ Scope: peptides that target, treat, or deliver drugs to lung cancer.
   - *Int J Mol Sci* | [PMC9779372](https://pmc.ncbi.nlm.nih.gov/articles/PMC9779372/)
   - Focus: Multi-target ACP: apoptosis, membrane disruption, anti-angiogenesis, anti-EMT
 
+- [x] **Yang et al. (2022)** — Triblock Amphiphilic Peptides on Lung Adenocarcinoma
+  - *Pharmaceutics* | [PMC9143638](https://pmc.ncbi.nlm.nih.gov/articles/PMC9143638/)
+  - Focus: K4F6K4, 81.6% tumor reduction in vivo, 13x selectivity
+
 ---
 
 ## Lung Cancer-Specific Targeting Peptides
@@ -73,8 +77,8 @@ Scope: peptides that target, treat, or deliver drugs to lung cancer.
   - *Int J Mol Sci* | [PMC9779372](https://pmc.ncbi.nlm.nih.gov/articles/PMC9779372/)
   - Focus: De novo designed peptide, membrane disruption and apoptosis in A549/H460 cells, anti-angiogenesis
 
-- [ ] **Therapeutic Effects of Synthetic Triblock Amphiphilic Short Antimicrobial Peptides on Human Lung Adenocarcinoma (2022)**
-  - *PMC* | [PMC9143638](https://pmc.ncbi.nlm.nih.gov/articles/PMC9143638/)
+- [x] **Yang et al. (2022)** — Therapeutic Effects of Synthetic Triblock Amphiphilic Short Antimicrobial Peptides on Human Lung Adenocarcinoma
+  - *Pharmaceutics* | [PMC9143638](https://pmc.ncbi.nlm.nih.gov/articles/PMC9143638/)
   - Focus: K4F6K4 peptide, membrane disruption in lung adenocarcinoma, in vivo efficacy
 
 - [ ] **Biological Activity of Natural and Synthetic Peptides as Anticancer Agents (2024)**
