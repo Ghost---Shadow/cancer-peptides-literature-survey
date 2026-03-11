@@ -75,6 +75,10 @@ Scope: peptides that target, treat, or deliver drugs to lung cancer.
   - *Explor Target Antitumor Ther* | [PMC12531643](https://pmc.ncbi.nlm.nih.gov/articles/PMC12531643/)
   - Focus: Nanocarrier landscape, inhalable systems, nano-immunotherapy, clinical progress
 
+- [x] **Allred et al. (2023)** — Tumor-Specific Intracellular Delivery: Peptide-Guided Transport of a Catalytic Toxin
+  - *Communications Biology* | [PMC9845330](https://pmc.ncbi.nlm.nih.gov/articles/PMC9845330/)
+  - Focus: MGS4_V8 peptide, saporin delivery, <40 nM NSCLC affinity, in vivo tumor homing
+
 ---
 
 ## Lung Cancer-Specific Targeting Peptides
@@ -133,9 +137,9 @@ Scope: peptides that target, treat, or deliver drugs to lung cancer.
   - *Explor Target Antitumor Ther* | [PMC12531643](https://pmc.ncbi.nlm.nih.gov/articles/PMC12531643/)
   - Focus: Nanocarrier platforms, inhalable delivery, T-DXd, clinical progress 2020-2025
 
-- [ ] **Tumor-Specific Intracellular Delivery: Peptide-Guided Transport of a Catalytic Toxin (2023)**
-  - *Communications Biology* | [Nature](https://www.nature.com/articles/s42003-022-04385-7)
-  - Focus: Peptide-guided intracellular toxin delivery, tumor-specific uptake
+- [x] **Allred et al. (2023)** — Tumor-Specific Intracellular Delivery: Peptide-Guided Transport of a Catalytic Toxin
+  - *Communications Biology* | [PMC9845330](https://pmc.ncbi.nlm.nih.gov/articles/PMC9845330/)
+  - Focus: MGS4_V8 peptide, saporin delivery, <40 nM NSCLC affinity, in vivo tumor homing
 
 ## Computational Peptide Design for Lung Cancer
 

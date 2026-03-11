@@ -26,3 +26,4 @@ See [TODO.md](TODO.md) for the full list of papers to review (19 papers across 7
 | 14 | [Alamdari-palangi et al. — Peptide-Agent Conjugates for Tumors](papers/alamdari-2023-peptide-agent-conjugates-tumor-targeting.md) | 2023 | Review: PDCs, 28 clinical trials, DTX-P7/ANG1005 for lung cancer |
 | 15 | [Kim et al. — Functionalized Peptides in Nanomedicine](papers/kim-2024-functionalized-peptides-nanomedicine-cancer.md) | 2024 | Peptide-NP strategies: targeting, self-assembly, stimuli-responsive |
 | 16 | [Lee et al. — Engineered Nanocarriers for Lung Cancer](papers/lee-2025-engineered-nanocarriers-lung-cancer.md) | 2025 | Nanocarrier platforms, inhalable delivery, T-DXd clinical progress |
+| 17 | [Allred et al. — Peptide-Guided Saporin Delivery to NSCLC](papers/allred-2023-peptide-guided-saporin-delivery-nsclc.md) | 2023 | MGS4_V8 peptide, saporin toxin delivery, <40 nM affinity, in vivo efficacy |
