@@ -31,6 +31,10 @@ Scope: peptides that target, treat, or deliver drugs to lung cancer.
   - *Scientific Reports* | [Nature](https://www.nature.com/articles/srep04480)
   - Focus: 11 novel NSCLC-targeting peptides, phage display, sub-nM affinity
 
+- [x] **Bakhshinejad et al. (2018)** — Identification of a Novel Tumor-Binding Peptide for Lung Cancer Through In-Vitro Panning
+  - *IJPR* | [PMC5937109](https://pmc.ncbi.nlm.nih.gov/articles/PMC5937109/)
+  - Focus: LCP1 (AWRTHTP) peptide, A549 targeting, phage display
+
 ---
 
 ## Lung Cancer-Specific Targeting Peptides
@@ -39,8 +43,8 @@ Scope: peptides that target, treat, or deliver drugs to lung cancer.
   - *Scientific Reports* | [Nature](https://www.nature.com/articles/srep04480)
   - Focus: NSCLC-specific targeting peptides, in vivo validation
 
-- [ ] **Identification of a Novel Tumor-Binding Peptide for Lung Cancer Through In-Vitro Panning (2018)**
-  - *PMC* | [PMC5937109](https://pmc.ncbi.nlm.nih.gov/articles/PMC5937109/)
+- [x] **Bakhshinejad et al. (2018)** — Identification of a Novel Tumor-Binding Peptide for Lung Cancer Through In-Vitro Panning
+  - *IJPR* | [PMC5937109](https://pmc.ncbi.nlm.nih.gov/articles/PMC5937109/)
   - Focus: Phage display biopanning for lung cancer-binding peptides
 
 - [ ] **Novel Cyclic Peptides for Targeting EGFR and EGFRvIII Mutation for Drug Delivery (2022)**
