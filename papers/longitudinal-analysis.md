@@ -30,6 +30,9 @@ Papers focused on identifying and optimizing peptides that specifically bind lun
 - **In vivo**: Confirmed tumor homing in xenograft models; validated on patient tumor samples
 - **Significance**: Established the foundation for NSCLC peptide targeting; same group later optimized MGS4 → Allred 2023
 
+![McGuire 2014 — Peptide binding profiles across a 40-cell-line panel](images/mcguire-2014-fig1-binding.jpg)
+*Figure: Binding profiles of NSCLC-targeting peptides across a panel of cell lines (McGuire et al. 2014, Fig. 1)*
+
 > McGuire et al. (2014) Scientific Reports | [Nature](https://www.nature.com/articles/srep04480)
 
 ---
@@ -41,6 +44,12 @@ Papers focused on identifying and optimizing peptides that specifically bind lun
 - **Key result**: HSP4-liposomal doxorubicin extended median survival by 47 days (131 vs 84 d, p=0.0248)
 - **Unique**: Only paper in survey targeting both SCLC and NSCLC (4 subtypes); only orthotopic lung model
 - **Dual use**: Theranostic — peptides also enabled MRI tumor imaging (~42% signal reduction)
+
+![Chi 2017 — MRI imaging with peptide-conjugated nanoparticles](images/chi-2017-fig3-mri.jpg)
+*Figure: T2-weighted MRI showing HSP peptide-conjugated nanoparticles homing to H460 xenograft tumors — theranostic dual use (Chi et al. 2017, Fig. 3)*
+
+![Chi 2017 — Survival curves in orthotopic lung cancer model](images/chi-2017-fig8-survival.jpg)
+*Figure: HSP4-targeted combination therapy extends median survival from 82 to 131 days in orthotopic A549 model (Chi et al. 2017, Fig. 8)*
 
 > Chi et al. (2017) Theranostics | [PMC5436516](https://pmc.ncbi.nlm.nih.gov/articles/PMC5436516/)
 
@@ -66,6 +75,9 @@ Papers focused on identifying and optimizing peptides that specifically bind lun
 - **Innovation**: First study combining phage display with NGS for massive parallel screening
 - **Target**: EGFR wild-type and EGFRvIII mutant — relevant to both NSCLC and glioblastoma
 
+![Furman 2022 — Docked structures of cyclic peptides to EGFR](images/furman-2022-fig6-docking.jpg)
+*Figure: Molecular docking of peptides P6, P9, P11 to the EGFR extracellular domain (Furman et al. 2022, Fig. 6)*
+
 > Furman et al. (2022) Pharmaceutics | [PMC9318536](https://pmc.ncbi.nlm.nih.gov/articles/PMC9318536/)
 
 ---
@@ -89,6 +101,9 @@ Papers focused on identifying and optimizing peptides that specifically bind lun
 - **Key result**: EC50 < 40 nM on 4 NSCLC lines; MGS4_V8-saporin IC50 9.4 nM; >48 h serum stability
 - **In vivo**: 25-40x tumor accumulation; ~50% tumor reduction (p<0.01); retained 72 h
 - **Lineage**: Direct continuation of McGuire 2014 — same group (SRI International), same peptide family
+
+![Allred 2023 — In vivo tumor homing and saporin-mediated tumor reduction](images/allred-2023-fig5-tumor-homing.jpg)
+*Figure: MGS4_V8 shows 240-fold tumor accumulation (NIR imaging) and significant tumor growth inhibition with saporin conjugate (Allred et al. 2023, Fig. 5)*
 
 > Allred et al. (2023) Communications Biology | [PMC9845330](https://pmc.ncbi.nlm.nih.gov/articles/PMC9845330/)
 
@@ -120,6 +135,9 @@ Papers where the peptide itself is the therapeutic agent — killing cancer cell
 - **Multi-target**: Apoptosis induction + membrane disruption + near-complete VEGFR2 suppression + anti-EMT
 - **Significance**: Early example of AI-assisted peptide design with multi-mechanism anticancer activity
 
+![Shin 2022 — De novo ACP design workflow and helical wheel projections](images/shin-2022-fig1-design.jpg)
+*Figure: De novo design pipeline — from database mining through AI prediction to helical wheel analysis of AC-P19M (Shin et al. 2022, Fig. 1)*
+
 > Shin et al. (2022) Int J Mol Sci | [PMC9779372](https://pmc.ncbi.nlm.nih.gov/articles/PMC9779372/)
 
 ---
@@ -131,6 +149,12 @@ Papers where the peptide itself is the therapeutic agent — killing cancer cell
 - **Key result**: IC50 62.6 ug/mL on A549; **81.6% tumor volume reduction** at Day 28 in vivo
 - **Selectivity**: 12.9x over normal MRC-5 lung fibroblasts; no in vivo toxicity observed
 - **Mechanism**: Membrane disruption via amphiphilic self-assembly — fundamentally different from receptor-targeting
+
+![Yang 2022 — 81.6% tumor volume reduction in vivo](images/yang-2022-fig7-tumor-reduction.jpg)
+*Figure: K4F6K4 dramatically reduces tumor volume vs PBS control in BALB/c nude mice over 28 days (Yang et al. 2022, Fig. 7)*
+
+![Yang 2022 — Membrane disruption mechanism](images/yang-2022-fig8-mechanism.jpg)
+*Figure: Schematic of K4F6K4 amphiphilic peptide self-assembly and selective cancer cell membrane disruption (Yang et al. 2022, Fig. 8)*
 
 > Yang et al. (2022) Pharmaceutics | [PMC9143638](https://pmc.ncbi.nlm.nih.gov/articles/PMC9143638/)
 
@@ -161,6 +185,12 @@ Papers where peptides deliver cytotoxic payloads or act as drug carriers targeti
 - **Key result**: KD 2.8 nM (SPR); near-complete tumor regression by Day 18 in xenograft (3 mg/kg 2x/week)
 - **Stage**: **Phase I/II clinical trial** — most advanced peptide therapeutic in survey
 - **Significance**: Achieves antibody-like affinity at 1/30th the molecular weight; first-in-class BTC for Nectin-4
+
+![Mudd 2022 — BT8009 chemical structure](images/mudd-2022-fig3-bt8009-structure.jpg)
+*Figure: Structure of BT8009 — Nectin-4-targeting bicycle peptide + molecular spacer + cleavable linker + MMAE cytotoxin (Mudd et al. 2022, Fig. 3)*
+
+![Mudd 2022 — Near-complete tumor regression](images/mudd-2022-fig4-efficacy.jpg)
+*Figure: BT8009 achieves near-complete tumor regression in MDA-MB-468 xenograft model (Mudd et al. 2022, Fig. 4)*
 
 > Mudd et al. (2022) J Med Chem | [PMC9661471](https://pmc.ncbi.nlm.nih.gov/articles/PMC9661471/)
 
