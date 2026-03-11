@@ -25,3 +25,4 @@ See [TODO.md](TODO.md) for the full list of papers to review (19 papers across 7
 | 13 | [Singh et al. — Oral EGFR-Targeting Grafted Peptide](papers/singh-2025-oral-egfr-grafted-peptide-nsclc.md) | 2025 | SFTI-G5 oral peptide, EGFR/HER2 dimerization inhibitor, NSCLC |
 | 14 | [Alamdari-palangi et al. — Peptide-Agent Conjugates for Tumors](papers/alamdari-2023-peptide-agent-conjugates-tumor-targeting.md) | 2023 | Review: PDCs, 28 clinical trials, DTX-P7/ANG1005 for lung cancer |
 | 15 | [Kim et al. — Functionalized Peptides in Nanomedicine](papers/kim-2024-functionalized-peptides-nanomedicine-cancer.md) | 2024 | Peptide-NP strategies: targeting, self-assembly, stimuli-responsive |
+| 16 | [Lee et al. — Engineered Nanocarriers for Lung Cancer](papers/lee-2025-engineered-nanocarriers-lung-cancer.md) | 2025 | Nanocarrier platforms, inhalable delivery, T-DXd clinical progress |

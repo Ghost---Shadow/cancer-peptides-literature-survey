@@ -71,6 +71,10 @@ Scope: peptides that target, treat, or deliver drugs to lung cancer.
   - *Biomedicines* | [PMC10813321](https://pmc.ncbi.nlm.nih.gov/articles/PMC10813321/)
   - Focus: Three peptide-NP strategies, CPP33-ZIF-90 for A549 lung cancer
 
+- [x] **Lee et al. (2025)** — Engineered Nanocarriers for Targeted Lung Cancer Therapy
+  - *Explor Target Antitumor Ther* | [PMC12531643](https://pmc.ncbi.nlm.nih.gov/articles/PMC12531643/)
+  - Focus: Nanocarrier landscape, inhalable systems, nano-immunotherapy, clinical progress
+
 ---
 
 ## Lung Cancer-Specific Targeting Peptides
@@ -125,9 +129,9 @@ Scope: peptides that target, treat, or deliver drugs to lung cancer.
   - *Biomedicines* | [PMC10813321](https://pmc.ncbi.nlm.nih.gov/articles/PMC10813321/)
   - Focus: Peptide-NP targeting, self-assembly, stimuli-responsive, CPP33-ZIF-90 for lung cancer
 
-- [ ] **Engineered Nanocarriers for Targeted Lung Cancer Therapy (2025)**
-  - *PMC* | [PMC12531643](https://pmc.ncbi.nlm.nih.gov/articles/PMC12531643/)
-  - Focus: Nanocarrier engineering for lung cancer, peptide ligand functionalization, clinical progress
+- [x] **Lee et al. (2025)** — Engineered Nanocarriers for Targeted Lung Cancer Therapy
+  - *Explor Target Antitumor Ther* | [PMC12531643](https://pmc.ncbi.nlm.nih.gov/articles/PMC12531643/)
+  - Focus: Nanocarrier platforms, inhalable delivery, T-DXd, clinical progress 2020-2025
 
 - [ ] **Tumor-Specific Intracellular Delivery: Peptide-Guided Transport of a Catalytic Toxin (2023)**
   - *Communications Biology* | [Nature](https://www.nature.com/articles/s42003-022-04385-7)
