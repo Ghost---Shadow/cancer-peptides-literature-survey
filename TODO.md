@@ -59,6 +59,10 @@ Scope: peptides that target, treat, or deliver drugs to lung cancer.
   - *J Med Chem* | [PMC9661471](https://pmc.ncbi.nlm.nih.gov/articles/PMC9661471/)
   - Focus: First low-MW Nectin-4 targeting BTC, MMAE, Phase I/II clinical
 
+- [x] **Singh et al. (2025)** — Oral EGFR-Targeting Grafted Peptide for NSCLC
+  - *ACS Pharmacol Transl Sci* | [ACS](https://pubs.acs.org/doi/10.1021/acsptsci.5c00336)
+  - Focus: SFTI-G5, first oral peptide targeting EGFR/HER2 dimerization, sub-µM IC50
+
 ---
 
 ## Lung Cancer-Specific Targeting Peptides
@@ -99,8 +103,8 @@ Scope: peptides that target, treat, or deliver drugs to lung cancer.
   - *J Med Chem* | [PMC9661471](https://pmc.ncbi.nlm.nih.gov/articles/PMC9661471/)
   - Focus: Bicycle peptide-MMAE conjugate (zelenectide pevedotin), Nectin-4 targeting, Phase I/II
 
-- [ ] **An Orally Available Grafted Peptide Targeting EGFR Dimers Reduces NSCLC Tumors in Mouse Models (2025)**
-  - *ACS Pharmacology & Translational Science* | [ACS](https://pubs.acs.org/doi/10.1021/acsptsci.5c00336)
+- [x] **Singh et al. (2025)** — An Orally Available Grafted Peptide Targeting EGFR Dimers Reduces NSCLC Tumors
+  - *ACS Pharmacol Transl Sci* | [ACS](https://pubs.acs.org/doi/10.1021/acsptsci.5c00336)
   - Focus: SFTI-G5 grafted peptide, oral bioavailability, EGFR/HER2 dimerization inhibition
 
 - [ ] **Recent Advances and Applications of Peptide-Agent Conjugates for Targeting Tumor Cells (2025)**
