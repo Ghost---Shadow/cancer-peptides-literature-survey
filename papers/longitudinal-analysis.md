@@ -4,328 +4,448 @@ A cross-cutting synthesis of 19 papers surveyed in this literature review, traci
 
 ---
 
-## 1. Survey Overview
+## Contents
 
-| Metric | Value |
-|--------|-------|
-| Papers surveyed | 19 |
-| Year range | 2014-2025 |
-| Original research | 9 papers |
-| Review articles | 10 papers |
-| Lung cancer-specific | 18/19 papers |
-| NSCLC focus | 15/19 papers |
-| Unique peptides named | 40+ |
-| Clinical-stage compounds | 2 (BT8009, LUNA18) |
-
-### Papers by Year
-
-| Year | Count | Papers |
-|------|-------|--------|
-| 2014 | 1 | McGuire (targeting peptides) |
-| 2017 | 1 | Chi (multi-subtype targeting) |
-| 2018 | 1 | Bakhshinejad (LCP1 peptide) |
-| 2022 | 5 | Furman, Zhou, Shin, Yang, Mudd |
-| 2023 | 3 | Nhan, Alamdari-palangi, Allred |
-| 2024 | 2 | Bauso, Kim |
-| 2025 | 6 | Karankar, Karati, Singh, Lee, Wu, Chowdhury |
-
-The field shows two activity peaks: a burst of original research in 2022 (5 papers) and a wave of reviews and translational studies in 2025 (6 papers), suggesting the field is maturing from discovery into synthesis and clinical translation.
+1. [Peptide Discovery and Targeting](#1-peptide-discovery-and-targeting)
+2. [Anticancer Peptides with Direct Activity](#2-anticancer-peptides-with-direct-activity)
+3. [Peptide-Drug Conjugates and Delivery](#3-peptide-drug-conjugates-and-delivery)
+4. [Nanoparticles and Delivery Platforms](#4-nanoparticles-and-delivery-platforms)
+5. [Computational and AI-Driven Design](#5-computational-and-ai-driven-design)
+6. [Reviews and Landscape Papers](#6-reviews-and-landscape-papers)
+7. [Cross-Cutting Analysis](#7-cross-cutting-analysis)
 
 ---
 
-## 2. Evolution of Discovery Methods
+## 1. Peptide Discovery and Targeting
 
-The methodological landscape has shifted dramatically over the decade:
-
-### Phase 1: Phage Display Era (2014-2018)
-
-| Paper | Method | Library | Output |
-|-------|--------|---------|--------|
-| McGuire 2014 | Phage display, 3 libraries | 7-mer, 12-mer, C7C | 11 NSCLC-targeting peptides, sub-nM KD |
-| Chi 2017 | Phage display biopanning | 12-mer | HSP1/HSP2/HSP4, multi-subtype binding |
-| Bakhshinejad 2018 | Ph.D.-7 phage display | 7-mer | LCP1 (AWRTHTP), 170-fold enrichment |
-
-Characteristics: Cell-based panning on live cancer cells, iterative selection (3-4 rounds), validation by ELISA/flow cytometry. Strengths in generating truly cell-binding sequences but limited by library diversity and laborious screening.
-
-### Phase 2: Computational + NGS-Guided (2022-2023)
-
-| Paper | Method | Innovation |
-|-------|--------|------------|
-| Furman 2022 | Phage display + NGS | 617,503 sequences screened computationally |
-| Zhou 2022 | Structure-based virtual screening | Cyclic D-peptide targeting intracellular KRASG12D |
-| Shin 2022 | De novo computational design | CancerPPD mining + AI prediction (mACPpred, ACPred) |
-| Allred 2023 | Phage display + systematic optimization | Truncation/acetylation/multimerization pipeline |
-
-Transition period: Phage display enhanced with next-generation sequencing (Furman) and computational docking. Purely computational approaches emerge (Zhou, Shin) enabling access to intracellular targets previously unreachable by phage display.
-
-### Phase 3: AI/ML and Scaffold Engineering (2024-2025)
-
-| Paper | Method | Innovation |
-|-------|--------|------------|
-| Singh 2025 | Scaffold grafting (SFTI-1) + MD simulation | First oral peptide targeting EGFR dimerization |
-| Wu 2025 | AI/ML models (68 surveyed) | End-to-end ACP screening framework |
-| Chowdhury 2025 | Molecular chimera design | Cyclotide/SFTI grafting with cancer epitopes |
-
-Current frontier: AI-driven prediction using protein language models (ProtBERT, ESM), generative models, and integration with multi-omics. Scaffold engineering (cyclotides, SFTI-1) enables oral bioavailability — a paradigm shift from injectable peptides.
+Papers focused on identifying and optimizing peptides that specifically bind lung cancer cells.
 
 ---
 
-## 3. Molecular Target Landscape
+### McGuire et al. (2014) — Tumor Targeting Peptides for NSCLC
 
-### Target Frequency Across Papers
+- **Method**: Phage display biopanning using 3 libraries (7-mer, 12-mer, C7C) on live NSCLC cells
+- **Output**: 11 novel NSCLC-targeting peptides with distinct binding profiles across a 40-cell-line panel
+- **Key result**: Tetramer KD values of 0.0071-40 nM; binding correlates with EGFR/KRAS genotype
+- **In vivo**: Confirmed tumor homing in xenograft models; validated on patient tumor samples
+- **Significance**: Established the foundation for NSCLC peptide targeting; same group later optimized MGS4 → Allred 2023
 
-| Target | Papers Mentioning | Key Peptides | Clinical Status |
-|--------|-------------------|-------------|-----------------|
-| **EGFR** | 8 (Chi, McGuire, Furman, Karankar, Singh, Chowdhury, Lee, Alamdari) | GE11, P6, SFTI-G5 | SFTI-G5 pre-clinical |
-| **HER2** | 5 (Singh, Chowdhury, Lee, Karankar, Kim) | SFTI-G5 (dual EGFR/HER2) | T-DXd approved (ADC) |
-| **KRAS** | 4 (Zhou, Nhan, Karankar, Bauso) | NKTP-3, KRpep-2d, LUNA18 | LUNA18 Phase I/II |
-| **NRP1** | 2 (Zhou, Nhan) | NKTP-3 (dual NRP1+KRASG12D) | Pre-clinical |
-| **Nectin-4** | 2 (Mudd, Lee) | BT8009 (zelenectide pevedotin) | **Phase I/II clinical trial** |
-| **PD-1/PD-L1** | 3 (Chowdhury, Karankar, Lee) | Grafted cyclotide candidates | Early research |
-| **VEGF/VEGFR** | 3 (Shin, Chowdhury, Nhan) | AC-P19M (anti-angiogenic) | Pre-clinical |
-| **p53/HDM2** | 2 (Karankar, Chowdhury) | p28 (azurin fragment) | Phase I (NCT00914914) |
-| **Integrins (RGD)** | 3 (Nhan, Kim, Chowdhury) | iRGD, RGD-4C, 99mTc-3PRGD2 | Imaging clinical trials |
-
-### Key Insight: Target Evolution
-
-Early work (2014-2018) used unbiased phage display, identifying peptides binding unknown receptors on cancer cell surfaces. By 2022, the field shifted to rationally designed peptides against validated oncology targets (EGFR, KRAS, Nectin-4). The 2025 papers show convergence on targets with established clinical precedent (EGFR/HER2 dimerization, PD-L1), leveraging peptides as alternatives to expensive antibody therapies.
+> McGuire et al. (2014) Scientific Reports | [Nature](https://www.nature.com/articles/srep04480)
 
 ---
 
-## 4. Peptide Design Strategy Evolution
+### Chi et al. (2017) — Lung Cancer-Targeting Peptides for Multi-Subtype Indication
 
-### Linear to Engineered: A Decade of Structural Innovation
+- **Method**: Phage display biopanning with 12-mer library on H460 NSCLC cells
+- **Peptides**: HSP1 (GAMHLPWHMGTL), HSP2 (NPWEEQGYRYSM), HSP4 (NNPWREMMYIEI)
+- **Key result**: HSP4-liposomal doxorubicin extended median survival by 47 days (131 vs 84 d, p=0.0248)
+- **Unique**: Only paper in survey targeting both SCLC and NSCLC (4 subtypes); only orthotopic lung model
+- **Dual use**: Theranostic — peptides also enabled MRI tumor imaging (~42% signal reduction)
 
-| Generation | Years | Strategy | Examples | Advantages |
-|-----------|-------|----------|----------|------------|
-| 1st | 2014-2018 | Linear peptides from phage display | HSP1/2/4, LCP1, McGuire peptides | Simple, direct selection |
-| 2nd | 2022 | Cyclic peptides | Furman P6/P9, Zhou NKTP-3 | Improved stability, target selectivity |
-| 2nd | 2022 | D-amino acid incorporation | NKTP-3 (cyclic D-peptide) | Protease resistance, cell permeability |
-| 2nd | 2022 | De novo designed | AC-P19M (net charge +9) | Multi-target by design |
-| 2nd | 2022 | Amphiphilic block peptides | K4F6K4 (triblock Lys-Phe-Lys) | Membrane disruption, high selectivity |
-| 3rd | 2022-2023 | Peptide-toxin/drug conjugates | BT8009-MMAE, MGS4_V8-saporin, DTX-P7 | Targeted payload delivery |
-| 3rd | 2022 | Bicycle peptides | BT8009 (constrained by TATA scaffold) | Antibody-like affinity, small MW |
-| 4th | 2025 | Scaffold-grafted chimeras | SFTI-G5, cyclotide grafts | Oral bioavailability, ultra-stability |
-| 4th | 2025 | AI-designed peptides | 68 models surveyed (Wu 2025) | High-throughput screening |
-
-### Stability Solutions Across Papers
-
-| Challenge | Solution | Paper(s) | Result |
-|-----------|----------|----------|--------|
-| Serum degradation | N-terminal acetylation | Allred 2023 | >48 h stability |
-| Proteolysis | D-amino acids | Zhou 2022 | Biostable, cell-permeable |
-| Proteolysis | Cyclization | Furman 2022, Singh 2025, Mudd 2022 | Extended half-life |
-| Proteolysis | Disulfide-rich scaffolds (CCK motif) | Chowdhury 2025, Singh 2025 | Oral stability |
-| Short half-life | Nanocarrier encapsulation | Kim 2024, Lee 2025 | Sustained release |
-| P-gp efflux | Membrane-disrupting ACPs | Karati 2025 | Bypass resistance |
+> Chi et al. (2017) Theranostics | [PMC5436516](https://pmc.ncbi.nlm.nih.gov/articles/PMC5436516/)
 
 ---
 
-## 5. Drug Delivery Platform Comparison
+### Bakhshinejad & Nasiri (2018) — Novel Tumor-Binding Peptide LCP1
 
-### Delivery Strategies Across the Survey
+- **Method**: Ph.D.-7 phage display (7-mer library), 3 rounds on A549 cells
+- **Peptide**: LCP1 (AWRTHTP) — 170-fold phage enrichment
+- **Key result**: Selectivity index 5.1 (A549 vs normal lung WI-38); no binding to liver, esophageal, or breast cancer
+- **Limitation**: In vitro only; receptor unknown; early-stage discovery
+- **Significance**: Demonstrated lung cancer-specific targeting achievable with short 7-mer peptides
 
-| Platform | Paper(s) | Payload | MW Range | Key Advantage |
-|----------|----------|---------|----------|---------------|
-| **Free peptide** | Shin 2022, Yang 2022, Zhou 2022 | Peptide IS the drug | 1-3 kDa | Simplest, direct action |
-| **Peptide-liposome** | Chi 2017 | Doxorubicin | ~100 nm | EPR effect, proven platform |
-| **PDC (peptide-drug conjugate)** | Furman 2022, Alamdari 2023 | Camptothecin, docetaxel, paclitaxel | 2-5 kDa | Small size, tumor penetration |
-| **Peptide-protein toxin** | Allred 2023 | Saporin (RIP) | ~35 kDa (conjugate) | Catalytic killing (1 molecule = many ribosomes) |
-| **Bicycle toxin conjugate** | Mudd 2022 | MMAE | ~4 kDa | Antibody-like affinity at 1/30th size |
-| **Peptide-MOF** | Kim 2024 | siRNA + Oridonin | ~200 nm | Dual drug + gene delivery |
-| **Peptide-NP (various)** | Kim 2024, Lee 2025 | Multiple | 10-200 nm | Stimuli-responsive release |
-| **Oral scaffold peptide** | Singh 2025 | Peptide IS the drug (grafted SFTI) | ~1.6 kDa | Oral bioavailability |
-| **Inhalable NP** | Lee 2025 | Various | Variable | Direct pulmonary deposition |
-
-### Key Trend: Miniaturization and Simplification
-
-The field is moving from complex nanoparticle formulations toward simpler, more drug-like peptide formats. BT8009 (~4 kDa) achieves antibody-like targeting in a molecule 1/30th the size of an antibody. SFTI-G5 (~1.6 kDa) achieves oral bioavailability without any delivery vehicle. This trajectory suggests future peptide therapeutics may be administered as simple oral pills rather than IV infusions.
+> Bakhshinejad & Nasiri (2018) IJPR | [PMC5937109](https://pmc.ncbi.nlm.nih.gov/articles/PMC5937109/)
 
 ---
 
-## 6. Quantitative Efficacy Comparison
+### Furman et al. (2022) — Cyclic Peptides for EGFR/EGFRvIII
 
-### Best In Vitro Results (IC50/EC50)
+- **Method**: Phage display + next-generation sequencing (617,503 sequences screened computationally)
+- **Peptides**: P6 (NSCLC-specific), P9 (glioblastoma); 7-mer cyclic format
+- **Key result**: P9-camptothecin conjugate IC50 2.2 uM on H1299 — 2-3x more cytotoxic than free drug
+- **Innovation**: First study combining phage display with NGS for massive parallel screening
+- **Target**: EGFR wild-type and EGFRvIII mutant — relevant to both NSCLC and glioblastoma
 
-| Peptide | Target | Cell Line | IC50/EC50 | Paper |
-|---------|--------|-----------|-----------|-------|
-| SFTI-G5 | HER2/EGFR | Calu-3 (NSCLC) | 0.073 uM | Singh 2025 |
-| MGS4_V10 (tetramer) | Unknown (NSCLC) | H1299 | EC50 1.5-3.5 nM | Allred 2023 |
-| MGS4_V8-saporin | Unknown (NSCLC) | H1299 | IC50 9.4 nM | Allred 2023 |
-| McGuire tetramers | Unknown (NSCLC) | Multiple | KD 0.0071-40 nM | McGuire 2014 |
-| BT8009 | Nectin-4 | Multiple | KD 2.8 nM (SPR) | Mudd 2022 |
-| HSP4-liposome | Multi-subtype lung | NCI-H446 | 9-13x IC50 reduction | Chi 2017 |
-| AC-P19M | Multi-target | A549/H460 | ~10-15 uM | Shin 2022 |
-| K4F6K4 | Membrane | A549 | 62.6 ug/mL | Yang 2022 |
-
-### Best In Vivo Results
-
-| Peptide/Conjugate | Model | Outcome | Paper |
-|-------------------|-------|---------|-------|
-| HSP4-PLD (liposomal dox) | Orthotopic lung xenograft | +47 days median survival (131 vs 84 d) | Chi 2017 |
-| K4F6K4 | A549 xenograft | -81.6% tumor volume at Day 28 | Yang 2022 |
-| MGS4_V8-saporin | H2009 xenograft | ~50% tumor size reduction, p<0.01 | Allred 2023 |
-| BT8009-MMAE | MDA-MB-468 xenograft | Near-complete regression by Day 18 | Mudd 2022 |
-| SFTI-G5 | Calu-3 xenograft | Significant growth delay, p<0.001 | Singh 2025 |
-| NKTP-3 | A427 xenograft + primary model | Strong antitumor activity, no toxicity | Zhou 2022 |
-
-### Selectivity Index (Cancer vs. Normal Cells)
-
-| Peptide | Selectivity | Normal Cell Control | Paper |
-|---------|-------------|---------------------|-------|
-| SFTI-G5 | >500-fold | HEK-293, MCF-10A | Singh 2025 |
-| AC-P19M | No IC50 at 100 uM in normal | BEAS-2B, hADMSCs | Shin 2022 |
-| K4F6K4 | 12.9x | MRC-5 lung fibroblasts | Yang 2022 |
-| LCP1 | 5.1x | Normal lung WI-38 | Bakhshinejad 2018 |
-| MGS4_V8 | Minimal uptake in HBEC | Normal bronchial epithelial | Allred 2023 |
+> Furman et al. (2022) Pharmaceutics | [PMC9318536](https://pmc.ncbi.nlm.nih.gov/articles/PMC9318536/)
 
 ---
 
-## 7. Clinical Translation Pipeline
+### Zhou et al. (2022) — NKTP-3 Cyclic D-Peptide for Dual Targeting
 
-### Development Stage Mapping
+- **Method**: Structure-based computational design + virtual screening
+- **Peptide**: NKTP-3 — cyclic D-peptide (protease-resistant, cell-permeable)
+- **Key result**: Dual-targeting NRP1 (surface) + KRASG12D (intracellular); selective over KRAS-WT, G12C, G12V
+- **In vivo**: Strong antitumor activity in A427 xenograft and primary lung cancer model; no obvious toxicity
+- **Significance**: First peptide to simultaneously target a surface receptor AND an intracellular oncoprotein
+
+> Zhou et al. (2022) JACS | [ACS](https://pubs.acs.org/doi/10.1021/jacs.1c12075)
+
+---
+
+### Allred et al. (2023) — Peptide-Guided Saporin Delivery to NSCLC
+
+- **Method**: Phage display optimization — truncation, N-terminal acetylation, multimerization
+- **Peptide**: MGS4_V8 (Ac-FHAVPQSFYT) — 10-amino-acid monomer
+- **Key result**: EC50 < 40 nM on 4 NSCLC lines; MGS4_V8-saporin IC50 9.4 nM; >48 h serum stability
+- **In vivo**: 25-40x tumor accumulation; ~50% tumor reduction (p<0.01); retained 72 h
+- **Lineage**: Direct continuation of McGuire 2014 — same group (SRI International), same peptide family
+
+> Allred et al. (2023) Communications Biology | [PMC9845330](https://pmc.ncbi.nlm.nih.gov/articles/PMC9845330/)
+
+---
+
+## Contents
+
+1. ~~Peptide Discovery and Targeting~~
+2. **Anticancer Peptides with Direct Activity**
+3. Peptide-Drug Conjugates and Delivery
+4. Nanoparticles and Delivery Platforms
+5. Computational and AI-Driven Design
+6. Reviews and Landscape Papers
+7. Cross-Cutting Analysis
+
+---
+
+## 2. Anticancer Peptides with Direct Activity
+
+Papers where the peptide itself is the therapeutic agent — killing cancer cells through membrane disruption, apoptosis, or anti-angiogenesis.
+
+---
+
+### Shin et al. (2022) — AC-P19M: De Novo Designed Anticancer Peptide
+
+- **Method**: Computational de novo design; CancerPPD database mining + AI prediction (mACPpred, ACPred, ENNACT)
+- **Peptide**: AC-P19M (net charge +9, alpha-helical)
+- **Key result**: IC50 ~10-15 uM on A549/H460; no toxicity at 100 uM in normal cells (BEAS-2B, hADMSCs)
+- **Multi-target**: Apoptosis induction + membrane disruption + near-complete VEGFR2 suppression + anti-EMT
+- **Significance**: Early example of AI-assisted peptide design with multi-mechanism anticancer activity
+
+> Shin et al. (2022) Int J Mol Sci | [PMC9779372](https://pmc.ncbi.nlm.nih.gov/articles/PMC9779372/)
+
+---
+
+### Yang et al. (2022) — K4F6K4 Triblock Amphiphilic Peptide
+
+- **Method**: Rational triblock design (Lys-Phe-Lys); structure-activity optimization across K2F6K2 to K4F8K4
+- **Peptide**: K4F6K4 (KKKK-FFFFFF-KKKK) — simple 14-residue design
+- **Key result**: IC50 62.6 ug/mL on A549; **81.6% tumor volume reduction** at Day 28 in vivo
+- **Selectivity**: 12.9x over normal MRC-5 lung fibroblasts; no in vivo toxicity observed
+- **Mechanism**: Membrane disruption via amphiphilic self-assembly — fundamentally different from receptor-targeting
+
+> Yang et al. (2022) Pharmaceutics | [PMC9143638](https://pmc.ncbi.nlm.nih.gov/articles/PMC9143638/)
+
+---
+
+## Contents
+
+1. ~~Peptide Discovery and Targeting~~
+2. ~~Anticancer Peptides with Direct Activity~~
+3. **Peptide-Drug Conjugates and Delivery**
+4. Nanoparticles and Delivery Platforms
+5. Computational and AI-Driven Design
+6. Reviews and Landscape Papers
+7. Cross-Cutting Analysis
+
+---
+
+## 3. Peptide-Drug Conjugates and Delivery
+
+Papers where peptides deliver cytotoxic payloads or act as drug carriers targeting lung cancer.
+
+---
+
+### Mudd et al. (2022) — BT8009 Bicycle Toxin Conjugate (Nectin-4)
+
+- **Method**: Phage display-derived bicycle peptide constrained by TATA scaffold; non-natural amino acids
+- **Conjugate**: BT8009 (zelenectide pevedotin) — ~4 kDa bicycle peptide + Val-Cit linker + MMAE
+- **Key result**: KD 2.8 nM (SPR); near-complete tumor regression by Day 18 in xenograft (3 mg/kg 2x/week)
+- **Stage**: **Phase I/II clinical trial** — most advanced peptide therapeutic in survey
+- **Significance**: Achieves antibody-like affinity at 1/30th the molecular weight; first-in-class BTC for Nectin-4
+
+> Mudd et al. (2022) J Med Chem | [PMC9661471](https://pmc.ncbi.nlm.nih.gov/articles/PMC9661471/)
+
+---
+
+### Singh et al. (2025) — SFTI-G5: First Oral EGFR-Targeting Peptide
+
+- **Method**: Scaffold grafting — EGFR-binding epitope grafted into SFTI-1 sunflower trypsin inhibitor (14 aa bicyclic)
+- **Peptide**: SFTI-G5 — Cyclo(C(S-X)RIPPR(S-X)CFPDDF) with non-natural Anapa residues
+- **Key result**: IC50 73 nM (Calu-3 NSCLC); >500-fold selectivity over normal cells; **oral bioavailability confirmed**
+- **In vivo**: Significant tumor growth delay (p<0.001) in Calu-3 xenograft + experimental metastasis model
+- **Significance**: First orally available anticancer peptide targeting EGFR/HER2 dimerization — paradigm shift
+
+> Singh et al. (2025) ACS Pharmacol Transl Sci | [ACS](https://pubs.acs.org/doi/10.1021/acsptsci.5c00336)
+
+---
+
+## Contents
+
+1. ~~Peptide Discovery and Targeting~~
+2. ~~Anticancer Peptides with Direct Activity~~
+3. ~~Peptide-Drug Conjugates and Delivery~~
+4. **Nanoparticles and Delivery Platforms**
+5. Computational and AI-Driven Design
+6. Reviews and Landscape Papers
+7. Cross-Cutting Analysis
+
+---
+
+## 4. Nanoparticles and Delivery Platforms
+
+Reviews covering peptide-functionalized nanoparticles and nanocarrier systems for lung cancer.
+
+---
+
+### Kim & Park (2024) — Functionalized Peptides in Nanomedicine
+
+- **Scope**: Three peptide-NP strategies — targeting ligands, self-assembling peptides, stimuli-responsive systems
+- **Lung cancer example**: CPP33 (RLWMRWYSPRTRAYG) + ZIF-90 MOF + survivin siRNA + Oridonin
+- **Key finding**: CPP33-ZIF-90 system showed preferential uptake in A549 cells and reduced tumor growth in vivo
+- **Platforms covered**: Metal-organic frameworks, gold NPs, mesoporous silica, liposomes, polymeric NPs
+
+> Kim & Park (2024) Biomedicines | [PMC10813321](https://pmc.ncbi.nlm.nih.gov/articles/PMC10813321/)
+
+---
+
+### Lee et al. (2025) — Engineered Nanocarriers for Lung Cancer
+
+- **Scope**: Comprehensive nanocarrier landscape for lung cancer — liposomes, PLGA, dendrimers, exosomes, inorganic NPs
+- **Clinical highlight**: T-DXd (trastuzumab deruxtecan) — ~55% response rate in HER2-mutant NSCLC (approved)
+- **Innovation**: Inhalable nanoparticle systems for direct pulmonary deposition; stimuli-responsive (pH, enzyme, hypoxia)
+- **Trend**: Field moving toward inhalable delivery routes that bypass systemic circulation for lung-specific targeting
+
+> Lee et al. (2025) Explor Target Antitumor Ther | [PMC12531643](https://pmc.ncbi.nlm.nih.gov/articles/PMC12531643/)
+
+---
+
+## Contents
+
+1. ~~Peptide Discovery and Targeting~~
+2. ~~Anticancer Peptides with Direct Activity~~
+3. ~~Peptide-Drug Conjugates and Delivery~~
+4. ~~Nanoparticles and Delivery Platforms~~
+5. **Computational and AI-Driven Design**
+6. Reviews and Landscape Papers
+7. Cross-Cutting Analysis
+
+---
+
+## 5. Computational and AI-Driven Design
+
+Papers on computational methods, AI/ML models, and rational scaffold engineering for anticancer peptides.
+
+---
+
+### Wu et al. (2025) — AI-Driven Anticancer Peptide Discovery
+
+- **Scope**: Comprehensive review of 68 AI-based ACP prediction models
+- **Databases**: CancerPPD, ApInAPDB, SATPdb, DBAASP (lung cancer lines A549/H460/H1299 in training data)
+- **Models**: SVM, Random Forest, CNN, LSTM, Transformer, ProtBERT, ESM language models
+- **Framework**: 4-stage pipeline — data curation → feature extraction + training → interpretability → wet-lab validation
+- **Gap**: Most of 68 models lack experimental validation; no AI-discovered ACP has reached clinical trials
+
+> Wu et al. (2025) iMetaOmics | [Wiley](https://onlinelibrary.wiley.com/doi/full/10.1002/imo2.70063)
+
+---
+
+### Chowdhury et al. (2025) — Molecular Chimera: Grafted Stable Peptides
+
+- **Concept**: "Molecular chimeras" — plant-derived scaffolds (cyclotides, SFTI-1) grafted with cancer-targeting epitopes
+- **Scaffolds**: Cyclotides (28-37 aa, cyclic cystine knot, 3 disulfide bonds) and SFTI-1 (14 aa, bicyclic)
+- **Targets covered**: EGFR, HER2, PD-L1, VEGF, integrins, p53-HDM2
+- **Key advantage**: Oral bioavailability from scaffold stability — validated experimentally by Singh et al. (SFTI-G5)
+- **Lineage**: Same group (Jois lab, LSU) as Singh 2025; this review provides the theoretical framework
+
+> Chowdhury et al. (2025) Int J Pept Res Ther | [Springer](https://link.springer.com/article/10.1007/s10989-025-10690-6)
+
+---
+
+## Contents
+
+1. ~~Peptide Discovery and Targeting~~
+2. ~~Anticancer Peptides with Direct Activity~~
+3. ~~Peptide-Drug Conjugates and Delivery~~
+4. ~~Nanoparticles and Delivery Platforms~~
+5. ~~Computational and AI-Driven Design~~
+6. **Reviews and Landscape Papers**
+7. Cross-Cutting Analysis
+
+---
+
+## 6. Reviews and Landscape Papers
+
+Broad reviews covering the peptide-based cancer therapy landscape, with lung cancer relevance.
+
+---
+
+### Karankar et al. (2025) — Peptide-Driven Strategies Against Lung Cancer
+
+- **Scope**: Comprehensive review of peptides targeting 6 NSCLC driver mutations: EGFR, TP53, BRAF, MET, ROS1, ALK
+- **Key peptides**: GE11 (EGFR-binding), p28 (azurin fragment for p53), NKTP-3 (KRASG12D)
+- **Insight**: Peptides positioned as bridge between small-molecule TKIs and antibodies; potential for TKI-resistant tumors
+- **Gaps identified**: No peptides yet targeting ALK, ROS1, or MET fusions
+
+> Karankar et al. (2025) Life Sciences | [ScienceDirect](https://www.sciencedirect.com/science/article/abs/pii/S0024320525000864)
+
+---
+
+### Karati et al. (2025) — Peptide Drugs Overcoming Lung Cancer Chemoresistance
+
+- **Scope**: How ACPs bypass chemoresistance mechanisms in NSCLC
+- **Key insight**: ACPs bypass P-glycoprotein efflux through direct membrane disruption — fundamentally different from conventional drugs
+- **Mechanisms**: Target DNA repair, EMT, apoptosis evasion pathways simultaneously
+- **Challenge**: Short half-life remains the primary practical limitation of peptide therapeutics
+
+> Karati et al. (2025) Int J Pept Res Ther | [Springer](https://link.springer.com/article/10.1007/s10989-025-10767-2)
+
+---
+
+### Nhan et al. (2023) — Peptide-Based Agents for Cancer Treatment
+
+- **Scope**: Broadest review — 56 pre-clinical + 10 clinical-stage peptides across cancer types
+- **Clinical examples**: LUNA18 (KRAS, Phase I/II), p28 (p53, Phase I), ALRN-6924 (Phase I/II)
+- **Lung-relevant**: NKTP-3, KRpep-2d (KRASG12D), 99mTc-3PRGD2 (integrin imaging)
+- **Historical context**: FDA approvals — Leuprorelin (1985), Octreotide (1998), Carfilzomib (2012)
+
+> Nhan et al. (2023) Int J Mol Sci | [PMC10454368](https://pmc.ncbi.nlm.nih.gov/articles/PMC10454368/)
+
+---
+
+### Alamdari-palangi et al. (2023) — Peptide-Agent Conjugates for Tumors
+
+- **Scope**: PDC landscape — design principles, linker chemistry, 28 clinical trials cataloged
+- **Lung-relevant**: DTX-P7 (Hsp90/docetaxel), ANG1005 (LRP1/3x paclitaxel), CIGB-300 (CK2 inhibitor, IC50 ~30 uM)
+- **Scale**: 60+ approved peptide therapeutics; 12 FDA/EMA-approved cancer drugs
+- **BT8009**: Featured as key example of next-generation peptide conjugate design
+
+> Alamdari-palangi et al. (2023) J Cancer Res Clin Oncol | [PMC11797435](https://pmc.ncbi.nlm.nih.gov/articles/PMC11797435/)
+
+---
+
+### Bauso et al. (2024) — Natural and Synthetic Anticancer Peptides
+
+- **Scope**: ACPs across 10 cancer types; **7 lung cancer peptides with full sequences cataloged**
+- **Lung peptides**: MANS (Myr-GAQFSKTAAKGEAAAERPGEAAVA), FCHO1, TMEM39AS41, MP06, AC-P19M, DTX-P7
+- **Key stat**: >1,000 clinical trials using ACPs globally
+- **Insight**: AC-P19M shows 5-fold more toxicity to cancer vs. normal cells
+
+> Bauso et al. (2024) Int J Mol Sci | [PMC11242495](https://pmc.ncbi.nlm.nih.gov/articles/PMC11242495/)
+
+---
+
+## Contents
+
+1. ~~Peptide Discovery and Targeting~~
+2. ~~Anticancer Peptides with Direct Activity~~
+3. ~~Peptide-Drug Conjugates and Delivery~~
+4. ~~Nanoparticles and Delivery Platforms~~
+5. ~~Computational and AI-Driven Design~~
+6. ~~Reviews and Landscape Papers~~
+7. **Cross-Cutting Analysis**
+
+---
+
+## 7. Cross-Cutting Analysis
+
+### Method Evolution (2014 → 2025)
+
+| Era | Years | Approach | Papers |
+|-----|-------|----------|--------|
+| Phage display | 2014-2018 | Cell-based biopanning, iterative selection | McGuire, Chi, Bakhshinejad |
+| NGS + computation | 2022 | Phage display enhanced with sequencing; virtual screening | Furman, Zhou |
+| De novo design | 2022 | AI-predicted sequences; rational amphiphilic design | Shin, Yang |
+| Scaffold engineering | 2025 | Plant-derived scaffolds grafted with targeting epitopes | Singh, Chowdhury |
+| AI/ML at scale | 2025 | 68 models; language models; end-to-end frameworks | Wu |
+
+### Target Landscape
+
+| Target | Frequency | Most Advanced Peptide | Stage |
+|--------|-----------|----------------------|-------|
+| EGFR/HER2 | 8 papers | SFTI-G5 (oral, IC50 73 nM) | Pre-clinical |
+| Nectin-4 | 2 papers | BT8009-MMAE | **Phase I/II** |
+| KRAS G12D | 4 papers | NKTP-3 (dual-target), LUNA18 | Phase I/II |
+| p53/HDM2 | 2 papers | p28 (azurin) | Phase I |
+| PD-1/PD-L1 | 3 papers | Cyclotide grafts (conceptual) | Early research |
+| KRAS G12C | 0 papers | — | **Gap** |
+| ALK/ROS1/MET | 0 papers | — | **Gap** |
+
+### Quantitative Efficacy — Top Performers
+
+| Metric | Best Result | Peptide | Paper |
+|--------|-------------|---------|-------|
+| Binding affinity | KD 0.0071 nM | McGuire tetramers | McGuire 2014 |
+| In vitro IC50 | 9.4 nM (with saporin) | MGS4_V8-saporin | Allred 2023 |
+| In vitro IC50 (free peptide) | 73 nM | SFTI-G5 | Singh 2025 |
+| Tumor volume reduction | -81.6% (Day 28) | K4F6K4 | Yang 2022 |
+| Survival extension | +47 days median | HSP4-PLD | Chi 2017 |
+| Selectivity | >500-fold | SFTI-G5 | Singh 2025 |
+| Tumor regression | Near-complete (Day 18) | BT8009-MMAE | Mudd 2022 |
+
+### Clinical Translation Pipeline
+
+| Stage | Papers | Key Compounds |
+|-------|--------|---------------|
+| Discovery / in vitro | Bakhshinejad 2018, Shin 2022, Furman 2022 | LCP1, AC-P19M, P6/P9 |
+| In vivo (xenograft) | Chi 2017, McGuire 2014, Yang 2022, Zhou 2022, Allred 2023, Singh 2025 | HSP4, K4F6K4, NKTP-3, MGS4_V8, SFTI-G5 |
+| Clinical trials | Mudd 2022 | BT8009 (Phase I/II) |
+| AI (computational only) | Wu 2025 | 68 models, no clinical validation |
+
+### Cross-Reference Network
 
 ```
-DISCOVERY          IN VITRO           IN VIVO            CLINICAL
-   |                  |                  |                  |
-   |  Bakhshinejad    |  Chi 2017        |  BT8009          |
-   |  2018 (LCP1)     |  McGuire 2014    |  (Phase I/II)    |
-   |                  |  Furman 2022     |                  |
-   |  Shin 2022       |  Zhou 2022       |  LUNA18           |
-   |  (AC-P19M)       |  Yang 2022       |  (Phase I/II)    |
-   |                  |  Allred 2023     |                  |
-   |                  |  Singh 2025      |  p28              |
-   |                  |                  |  (Phase I)        |
-   |                  |                  |                  |
-   AI Models          NP Systems         T-DXd (approved    |
-   (Wu 2025)          (Kim 2024,         for HER2+ NSCLC)  |
-   68 models          Lee 2025)          (ADC, not peptide) |
+McGuire 2014 ──────→ Allred 2023          (same group, same peptide family)
+Singh 2025 ←────────→ Chowdhury 2025       (same group, SFTI scaffold)
+Shin 2022 ──────────→ Wu 2025              (AI tools → AI landscape review)
+Furman + Zhou 2022 ──→ Karankar 2025       (EGFR/KRAS peptides → review)
+Chi 2017 + Allred 2023 → Lee 2025          (delivery methods → nanocarrier review)
+Yang + Shin 2022 ───→ Bauso 2024           (ACPs → cataloged in review)
+Mudd 2022 ──────────→ Alamdari 2023        (BT8009 → PDC review)
 ```
 
-### Bottlenecks to Clinical Translation
+### Key Gaps
 
-Synthesized from limitations across all 19 papers:
+| Gap | Description |
+|-----|-------------|
+| KRAS G12C | Most common KRAS mutation in NSCLC smokers; no peptide in survey |
+| SCLC | Only Chi 2017 addresses SCLC; aggressive subtype with no targeted therapies |
+| ALK/ROS1/MET | Mentioned in reviews but zero experimental peptides |
+| Orthotopic models | Only Chi 2017 uses orthotopic lung model; all others use subcutaneous |
+| Head-to-head | No paper compares peptides against standard-of-care antibodies or TKIs |
+| AI validation | 68 models, most without wet-lab confirmation |
+| Combination therapy | No studies combining peptides with immunotherapy |
 
-1. **Unknown receptors**: Several high-affinity peptides (McGuire, Chi, Allred) bind unidentified targets, complicating regulatory pathways
-2. **Xenograft limitations**: Most in vivo studies use subcutaneous models rather than orthotopic lung tumors (exception: Chi 2017)
-3. **Pharmacokinetics**: Only BT8009 and SFTI-G5 report detailed PK data; most peptides lack ADME characterization
-4. **Manufacturing scale-up**: Cyclotide/SFTI synthesis requires native chemical ligation; D-peptide synthesis is expensive
-5. **Validation gap**: Of 68 AI models surveyed (Wu 2025), most lack wet-lab validation
+### Five Emerging Opportunities
 
----
-
-## 8. Lung Cancer-Specific Insights
-
-### Coverage by NSCLC Driver Mutation
-
-| Driver | Peptide Approach | Paper(s) | Status |
-|--------|------------------|----------|--------|
-| EGFR (WT/mutant) | GE11, P6, SFTI-G5, erlotinib-resistance strategies | Furman 2022, Singh 2025, Karankar 2025 | Pre-clinical |
-| EGFR T790M/C797S | Peptides bypassing TKI resistance | Karankar 2025, Karati 2025 | Conceptual |
-| KRAS G12D | NKTP-3 (direct binding), LUNA18 | Zhou 2022, Nhan 2023 | LUNA18 Phase I/II |
-| KRAS G12C | Not directly targeted by surveyed peptides | — | Gap |
-| HER2 | SFTI-G5 (dimerization inhibitor), T-DXd (ADC) | Singh 2025, Lee 2025 | T-DXd approved |
-| ALK fusions | Mentioned in reviews, no specific peptide | Karankar 2025 | Gap |
-| ROS1 fusions | Mentioned in reviews, no specific peptide | Karankar 2025 | Gap |
-| MET amplification | Mentioned in reviews, no specific peptide | Karankar 2025 | Gap |
-| PD-L1 (immunotherapy) | Cyclotide grafts proposed | Chowdhury 2025 | Early research |
-
-### SCLC vs. NSCLC Coverage
-
-Only Chi et al. (2017) addresses SCLC directly, with HSP peptides binding both SCLC and NSCLC subtypes. All other papers focus exclusively on NSCLC. This represents a significant gap given SCLC's aggressive biology and lack of targeted therapies.
-
-### Chemoresistance
-
-Karati et al. (2025) provides the most focused treatment of peptide strategies against lung cancer chemoresistance, identifying mechanisms by which ACPs bypass P-glycoprotein efflux through direct membrane disruption — a mode of action fundamentally different from conventional drugs.
+1. **Oral peptide therapeutics** — SFTI-G5 proves oral bioavailability is achievable; generalizing to other targets could transform patient compliance
+2. **AI-to-clinic** — First AI-discovered ACP to reach clinical trials will validate the entire computational field (Wu 2025)
+3. **Peptide-immunotherapy** — PD-L1-targeting cyclotide grafts (Chowdhury 2025) could synergize with checkpoint inhibitors
+4. **Inhalable delivery** — Direct pulmonary deposition (Lee 2025) concentrates peptides in lung tumors, bypassing systemic distribution
+5. **Dual-target peptides** — NKTP-3 (Zhou 2022) proves simultaneous surface + intracellular targeting is feasible
 
 ---
 
-## 9. Cross-Reference Network
+## References
 
-Several papers in this survey are directly connected through shared authors, building-block peptides, or conceptual lineage:
+All 19 papers in this survey:
 
-### Direct Research Lineage
-- **McGuire 2014 → Allred 2023**: Same group (SRI International), same phage display-derived peptide family. McGuire identified the initial MGS4 peptide; Allred optimized it (MGS4_V8) and demonstrated saporin delivery.
-- **Singh 2025 ↔ Chowdhury 2025**: Both from Jois group (LSU). Singh presents SFTI-G5 experimental data; Chowdhury reviews the molecular chimera framework that underpins SFTI grafting strategy.
-
-### Conceptual Connections
-- **Shin 2022 → Wu 2025**: Shin used early AI tools (mACPpred, ACPred) for peptide design; Wu reviews the entire AI-ACP landscape including these tools.
-- **Furman 2022 + Zhou 2022 → Karankar 2025**: Both present EGFR/KRAS-targeting cyclic peptides; Karankar reviews the full mutation-targeted peptide landscape.
-- **Chi 2017 + Allred 2023 → Lee 2025**: Peptide-targeted liposomal delivery (Chi) and peptide-toxin conjugates (Allred) are both reviewed in Lee's nanocarrier landscape paper.
-- **Yang 2022 + Shin 2022 → Bauso 2024**: Both present ACPs with lung cancer activity; Bauso catalogs them in a broader review.
-- **Mudd 2022 → Alamdari 2023**: BT8009 bicycle toxin conjugate is a key example in Alamdari's PDC review.
-
----
-
-## 10. Key Gaps and Future Directions
-
-Synthesized from limitations across all 19 papers:
-
-### Unresolved Challenges
-
-| Gap | Description | Relevant Papers |
-|-----|-------------|-----------------|
-| **KRAS G12C peptides** | Most common KRAS mutation in NSCLC smokers; no peptide therapeutic in survey | Zhou 2022 (addresses G12D only) |
-| **SCLC targeting** | Only 1/19 papers (Chi 2017) addresses SCLC; aggressive subtype with poor outcomes | All reviews note this gap |
-| **ALK/ROS1/MET peptides** | Mentioned in reviews but no experimental peptides exist | Karankar 2025 |
-| **Orthotopic models** | Most in vivo studies use subcutaneous xenografts, not lung orthotopic tumors | Only Chi 2017 uses orthotopic |
-| **AI validation** | 68 AI models exist but most lack wet-lab validation | Wu 2025 |
-| **Head-to-head comparisons** | No paper compares peptides against standard-of-care antibodies or TKIs | All papers |
-| **Combination therapy** | Few studies explore peptides combined with immunotherapy or chemotherapy | Karati 2025 (conceptual) |
-| **Biomarker stratification** | Peptides binding unknown receptors cannot be matched to patient populations | McGuire 2014, Chi 2017, Allred 2023 |
-
-### Emerging Opportunities
-
-1. **Oral peptide therapeutics**: SFTI-G5 (Singh 2025) demonstrates oral bioavailability for an anticancer peptide — a potential paradigm shift if the approach generalizes to other targets.
-
-2. **AI-to-clinic pipeline**: Wu (2025) proposes a framework, but no AI-discovered ACP has reached clinical trials. The first to achieve this will validate the entire computational ACP field.
-
-3. **Peptide-immunotherapy combinations**: PD-L1-targeting grafted cyclotides (Chowdhury 2025) could combine with existing checkpoint inhibitors for synergistic effects.
-
-4. **Inhalable peptide delivery**: Lee (2025) highlights pulmonary delivery routes that could concentrate peptides directly in lung tumors, bypassing systemic distribution.
-
-5. **Multi-target peptides**: NKTP-3 (Zhou 2022) demonstrates dual-targeting (NRP1 + KRASG12D) is feasible; extending this to other target pairs could address resistance mechanisms.
-
----
-
-## 11. Summary Table: All 19 Papers at a Glance
-
-| # | Paper | Year | Type | Key Peptide(s) | Target(s) | Stage | Best Efficacy |
-|---|-------|------|------|----------------|-----------|-------|---------------|
-| 1 | Chi et al. | 2017 | Research | HSP1/2/4 | Multi-subtype lung | In vivo | +47 d survival |
-| 2 | Karankar et al. | 2025 | Review | GE11, p28, NKTP-3 | EGFR/TP53/KRAS/ALK | Review | — |
-| 3 | Karati et al. | 2025 | Review | ACPs (various) | Chemoresistance | Review | — |
-| 4 | Nhan et al. | 2023 | Review | 56 pre-clinical + 10 clinical | Multiple | Review | — |
-| 5 | McGuire et al. | 2014 | Research | 11 NSCLC peptides | NSCLC surface | In vivo | KD 0.007 nM |
-| 6 | Bakhshinejad et al. | 2018 | Research | LCP1 (AWRTHTP) | A549 surface | In vitro | 5.1x selectivity |
-| 7 | Furman et al. | 2022 | Research | P6, P9 (cyclic) | EGFR/EGFRvIII | In vitro | IC50 2.2 uM (PDC) |
-| 8 | Zhou et al. | 2022 | Research | NKTP-3 | NRP1 + KRASG12D | In vivo | Dual-target, no toxicity |
-| 9 | Shin et al. | 2022 | Research | AC-P19M | Multi-target | In vitro | >6.7x selectivity |
-| 10 | Yang et al. | 2022 | Research | K4F6K4 | Membrane | In vivo | -81.6% tumor vol |
-| 11 | Bauso et al. | 2024 | Review | 7 lung ACPs cataloged | Multiple | Review | — |
-| 12 | Mudd et al. | 2022 | Research | BT8009 (BTC) | Nectin-4 | **Phase I/II** | Near-complete regression |
-| 13 | Singh et al. | 2025 | Research | SFTI-G5 | HER2/EGFR | In vivo | IC50 73 nM, oral |
-| 14 | Alamdari et al. | 2023 | Review | DTX-P7, ANG1005 | PDC landscape | Review | — |
-| 15 | Kim et al. | 2024 | Review | CPP33-ZIF-90 | NP platforms | Review | — |
-| 16 | Lee et al. | 2025 | Review | T-DXd, inhalables | Nanocarriers | Review | — |
-| 17 | Allred et al. | 2023 | Research | MGS4_V8 + saporin | NSCLC surface | In vivo | IC50 9.4 nM, -50% tumor |
-| 18 | Wu et al. | 2025 | Review | 68 AI models | Computational | Review | — |
-| 19 | Chowdhury et al. | 2025 | Review | Cyclotide/SFTI chimeras | EGFR/HER2/PD-L1 | Review | — |
-
----
-
-## 12. Concluding Observations
-
-This survey of 19 papers spanning 2014-2025 reveals a field undergoing rapid maturation:
-
-1. **From discovery to design**: The dominant paradigm has shifted from empirical phage display screening to rational computational and AI-driven design, enabling access to intracellular targets and predictable binding properties.
-
-2. **From injection to ingestion**: The development of orally bioavailable scaffolded peptides (SFTI-G5) represents a potential inflection point, as oral delivery could dramatically improve patient compliance and reduce treatment costs.
-
-3. **From general to specific**: While early peptides bound unknown receptors on cancer cells, current approaches target validated oncogenes (KRAS, EGFR, HER2) with known roles in lung cancer progression, enabling rational patient stratification.
-
-4. **From single to dual targeting**: NKTP-3's dual-targeting of surface (NRP1) and intracellular (KRASG12D) proteins exemplifies a trend toward multi-target peptides that may resist the single-target resistance mechanisms plaguing TKIs.
-
-5. **The validation gap persists**: Despite 68 AI models and dozens of candidate peptides, only BT8009 has reached clinical trials as a peptide-based therapeutic for lung cancer-relevant indications. Closing the gap between computational prediction and clinical reality remains the field's central challenge.
-
-The convergence of AI-driven design, scaffold engineering for oral delivery, and nanocarrier-mediated lung-specific delivery creates a promising landscape for the next generation of peptide-based lung cancer therapeutics.
+| # | Citation | Year |
+|---|----------|------|
+| 1 | [Chi et al. — Lung Cancer-Targeting Peptides](chi-2017-lung-cancer-targeting-peptides.md) | 2017 |
+| 2 | [Karankar et al. — Peptide-Driven Strategies](karankar-2025-peptide-driven-strategies-lung-cancer.md) | 2025 |
+| 3 | [Karati et al. — Peptide Drugs & Chemoresistance](karati-2025-peptide-drugs-lung-cancer-chemoresistance.md) | 2025 |
+| 4 | [Nhan et al. — Peptide-Based Agents](nhan-2023-peptide-agents-cancer-treatment.md) | 2023 |
+| 5 | [McGuire et al. — Tumor Targeting Peptides](mcguire-2014-tumor-targeting-peptides-nsclc.md) | 2014 |
+| 6 | [Bakhshinejad et al. — LCP1 Peptide](bakhshinejad-2018-novel-tumor-binding-peptide-lung-cancer.md) | 2018 |
+| 7 | [Furman et al. — Cyclic Peptides EGFR](furman-2022-cyclic-peptides-egfr-egfrviii.md) | 2022 |
+| 8 | [Zhou et al. — NKTP-3 D-Peptide](zhou-2022-nktp3-cyclic-dpeptide-lung-cancer.md) | 2022 |
+| 9 | [Shin et al. — AC-P19M](shin-2022-acp19m-anticancer-peptide-lung-cancer.md) | 2022 |
+| 10 | [Yang et al. — K4F6K4 Triblock](yang-2022-triblock-amphiphilic-peptides-lung-adenocarcinoma.md) | 2022 |
+| 11 | [Bauso et al. — Natural & Synthetic ACPs](bauso-2024-natural-synthetic-anticancer-peptides.md) | 2024 |
+| 12 | [Mudd et al. — BT8009 BTC](mudd-2022-bt8009-bicycle-toxin-conjugate-nectin4.md) | 2022 |
+| 13 | [Singh et al. — SFTI-G5 Oral Peptide](singh-2025-oral-egfr-grafted-peptide-nsclc.md) | 2025 |
+| 14 | [Alamdari-palangi et al. — Peptide-Agent Conjugates](alamdari-2023-peptide-agent-conjugates-tumor-targeting.md) | 2023 |
+| 15 | [Kim et al. — Peptides in Nanomedicine](kim-2024-functionalized-peptides-nanomedicine-cancer.md) | 2024 |
+| 16 | [Lee et al. — Nanocarriers for Lung Cancer](lee-2025-engineered-nanocarriers-lung-cancer.md) | 2025 |
+| 17 | [Allred et al. — MGS4_V8 Saporin Delivery](allred-2023-peptide-guided-saporin-delivery-nsclc.md) | 2023 |
+| 18 | [Wu et al. — AI-Driven ACP Discovery](wu-2025-ai-driven-anticancer-peptide-discovery.md) | 2025 |
+| 19 | [Chowdhury et al. — Molecular Chimera](chowdhury-2025-molecular-chimera-grafted-peptides-cancer.md) | 2025 |
